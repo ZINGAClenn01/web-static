@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    background: url(../images/IMAGE.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    font-size: 2.5vw;
+    margin-left: 2vw;
+}
+
+.top{
+    height: 3vw;
+}
+.langue{
+    transform: translate(0, -0.3vw);
+}
+.langage{
+    transform: translate(-1.2vw, -0.6vw);
+}
+
+nav{
+    background-color: white;
+    height: 5vw;
+    width: 95vw;
+    margin: auto;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+}
+.nav-ul{
+    margin-right: 2vw;
+    font-size: 1vw;
+}
+
+.beach{
+    font-size: 3vw;
+    color: white;
+    line-height: 3.5vw;
+    letter-spacing: 0.5vw;
+}
+.text-beach{
+    color: white;
+    margin-top: 10vw;
+    margin-left: 8vw;
+    line-height: 2vw;
+    letter-spacing: 0.5vw;
+}
+
+.your{
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-left: 1.9vw;
+}
+.btn-bleu{
+    padding: 1vw;
+    color: white;
+    background-color: blue;
+    margin-left: 2vw;
+    border-radius: 0.2vw;
+}
+
+.you{
+    margin-left: 6vw;
+    font-size: 3.5vw;
+    letter-spacing: 0.5vw;
+}
+.top-you{
+    height: 5vh;
+    background-color: #F7F9FB;
+}
+.text-you{
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    margin-left: 6vw;
+}
+
+.gros-text{
+    font-size: 3vw;
+}
+.text-align{
+    text-align: center;
+}
+.block-gris{
+    height: 38vh;
+    background-color: #F7F9FB;
+    margin-top: 14vw;
+}
+.block-gris2{
+    height: 38vh;
+    background-color: #F7F9FB;
+    margin-top: 10vw;
+}
+
+.form-top{
+    height: 73vh;
+    width: 33vw;
+    background-color: white;
+    z-index: 2;
+    margin-bottom: 10vw;
+    transform: translate(12vw, -19vw);
+}
+.start{
+    margin-top: 2vw;
+    margin-right: 2vw;
+    color: #6C757D;
+    z-index: 3;
+    position: absolute;
+    font-size: 1.15vw;
+    letter-spacing: normal;
+    left: 41.3vw;
+}
+
+.form-top textarea{
+    width: 27vw;
+    margin-left: 2vw;
+    height: 16vh;
+
+}
+.form-top .input1{
+    width: 25vw;
+    margin-left: 1.8vw;
+    border: solid black 0.2px;
+    margin-top: 1vw;
+}
+.form-top .input2{
+    width: 25vw;
+    margin-left: 1.8vw;
+    border: solid black 0.2px;
+    /* margin-top: 1vw; */
+}
+.label2{
+    margin-top: 1vw;
+}
+
+
+label{
+    margin-left: 1.8vw;
+    /* margin-bottom: 1vw; */
+}
+.property{
+    font-size: 3vw;
+    letter-spacing: 0.5vw;
+    text-align: center;
+}
+
+.text-property{
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    margin-left: 6vw;
+    margin-right: 5vw;
+}
+.section2{
+    margin-top: 18vw;
+}
+.icones-textes{
+    display: flex;
+    justify-content: space-around;
+}
+.icones-textes2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vw;
+}
+.g-icones-textes{
+    margin-top: 5vw;
+}
+.icone-texte{
+    display: flex;
+    
+}
+.juna{
+    font-size: 3vw;
+    line-height: 1vw;
+    margin-left: 5vw;
+    height: 40vh;
+    margin-top: 3vw;
+}
+.text-juna{
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    margin-bottom: 60vw;
+}
+
+.div-juna{
+    display: flex;
+    margin-top: 5vw;
+}
+.lien-juna{
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    color: blue; 
+}
+
+.image-open{
+    margin-left: 5vw;
+}
+.prop{
+    margin-top: 8vw;
+}
+
+.image{
+    display: flex;
+}
+.images{
+    width: 25%;
+    height: 40vh;
+    background-image: url(../images/maison-etage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images1{
+    width: 25%;
+    height: 40vh;
+    background-image: url(../images/image-room.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images2{
+    width: 25%;
+    height: 40vh;
+    background-image: url(../images/entrer-maison.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images3{
+    width: 25%;
+    height: 40vh;
+    background-image: url(../images/maison-coté.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images4{
+    width: 25%;
+    height: 40vh;
+    background-image: url(../images/belle-maison.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images5{
+    width: 25%;
+    height: 40vh;
+    background-image: url(../images/chateau.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-gris{
+    height: 35vh;
+    background-color: #F7F9FB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.numero{
+    font-size: 2.5vw;
+}
+
+.texte-num{
+    font-size: 1vw;
+}
+.text-our{
+    margin-top: 5vw;
+}
+.icone-texte img{
+    margin-top: 1vw;
+    margin-right: 1vw;
+}
+.square{
+    font-weight: bold;
+}
+.video{
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    margin-top: 2vw;
+}
+
+.doyou{
+    font-size: 1.7vw;
+}
+.text-doyou{
+    text-align: center;
+}
+
+.image-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+.image-logo2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+    width: 70vw;
+    margin-left: 8vw;
+    margin-top: 2vw;
+}
+
+.get{
+    background-color: #F7F9FB;
+    margin-top: 5vw;
+}
+
+.blue{
+    width: 76vw;
+    height: 100vh;
+    background-color: blue;
+    margin: auto;
+}
+.top-blue{
+    height: 8vh;
+}
+.top-get{
+    height: 4vh;
+}
+.text-get{
+    font-size: 3vw;
+    margin-left: 3vw;
+    color: white;
+}
+.text-get-p{
+    margin-left: 3vw;
+    margin-top: 2vw;
+    line-height: 2vw;
+    color: white;
+}
+
+.champ-input{
+    justify-content: space-between;
+    width: 92%;
+    margin: auto;
+    margin-top: 1vw;
+}
+.champ-input p{
+    color: white;
+    margin-bottom: 1vw;
+}
+input{
+    padding: 1vw;
+    width: 25vw;
+    border-radius: 0.4vw;
+}
+
+textarea{
+    margin-left: 3vw;
+    width: 70vw;
+}
+.textarea{
+    margin-left: 3vw;
+    margin-top: 1vw;
+    color: white;
+}
+
+.button{
+    padding: 2vw;
+    background-color: white;
+    margin-top: 6vw;
+    margin-left: 1.2vw;
+    border-radius: 0.4vw;
+}
+.top-btn{
+    height: 6vh;
+}
+
+footer{
+    height: 60vh;
+    background-color: black;
+    margin-top: 7vw;
+}
+footer p{
+    color: #F7F9FB;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    margin-top: 2vw;
+}
+footer a{
+    list-style: none;
+    color: #484848;
+    line-height: 2.5vw;
+    margin-top: 2vw;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.end{
+    margin-top: 12vw;
+}
+.ul-end{
+    margin-top: 3vw;
+    line-height: 2vw;
+}
