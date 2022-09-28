@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
     
     *{
         margin: 0;
@@ -308,7 +308,7 @@
         background: url(../images/IMAGE.png);background-size: cover;
         background-repeat: no-repeat;
         height: 30vh;
-        width: 100vw;background-color: red;
+        width: 100vw;
     }
     .langue-respo{
 
@@ -351,6 +351,7 @@
     .text-you-respo{
         font-size: 2.5vw;
         margin-left: 5vw;
+        z-index: 0;
         
     }
     .top-you{
@@ -671,7 +672,7 @@
 
     form{
         padding-bottom: 10vw;
-        background-color: red;
+        
     }
 
     #footer{
