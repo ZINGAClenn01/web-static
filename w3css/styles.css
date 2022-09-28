@@ -84,6 +84,7 @@
         font-size: 4vw;
         margin-top: 10vw;
         margin-left: 1.9vw;
+        z-index: -2;
     }
     .btn-bleu{
         padding: 1vw;
