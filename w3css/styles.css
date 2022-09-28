@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     
     *{
         margin: 0;
@@ -671,6 +671,7 @@
 
     form{
         padding-bottom: 10vw;
+        background-color: red;
     }
 
     #footer{

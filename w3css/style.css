@@ -79,7 +79,7 @@ ul{
 .btn-bleu{
     padding: 1vw;
     color: white;
-    background-color: blue;
+    background-color: #2250FC;
     margin-left: 2vw;
     border-radius: 0.2vw;
 }
@@ -213,7 +213,7 @@ label{
 .lien-juna{
     font-size: 1.5vw;
     letter-spacing: 0.1vw;
-    color: blue; 
+    color: #2250FC; 
 }
 
 .image-open{
@@ -328,7 +328,7 @@ label{
 .blue{
     width: 76vw;
     height: 100vh;
-    background-color: blue;
+    background-color: #2250FC;
     margin: auto;
 }
 .top-blue{
@@ -421,3 +421,43 @@ footer a{
     margin-top: 3vw;
     line-height: 2vw;
 }
+
+
+
+
+.header-responsive{
+    display: none;
+}
+
+.you-need-respo{
+    display: none;
+}
+
+.section-head{
+    display: none;
+}
+
+.top-text-respo{
+    display: none;
+}
+.fourmulaire-haut{
+    display: none;
+}
+
+.section2-respo{
+    display: none;
+}
+
+.section-open{
+    display: none;
+}
+.section-prop{
+    display: none;
+}
+.properties-respo{
+    display: none;
+}
+#respo-image{
+    display: none;
+}
+
